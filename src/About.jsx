@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import img2 from './images/Img2.jpg'
 
 export default function About() {
 
@@ -24,7 +23,7 @@ const aboutCards = [
 
   return (
     <>
-      <div className=' bg-indigo-800 py-12 text-slate-100'>
+      <div className=' bg-indigo-800 py-24 text-slate-100'>
         
         <div className='mb-10'>
             <h3 className='text-center'> What is the GhaProfund?</h3>
