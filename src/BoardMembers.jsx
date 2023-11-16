@@ -32,8 +32,8 @@ export default function BoardMembers() {
 
 {members.map ((members) =>(
 <div className='p-5 mx-auto mb-10 rounded-md shadow-md  w-56'key={members.id}>
-  <div className='w-24 h-24 rounded-full flex mx-auto '>
     <img src={members.imageUrl} alt="" className='border-4 border-pink-400 w-24 h-24 rounded-full' />
+  <div className='w-24 h-24 rounded-full flex mx-auto '>
   </div>
   <h4 className='text-slate-900 '>{members.name}</h4>
   <h5 className='mb-2'>{members.position}</h5>
