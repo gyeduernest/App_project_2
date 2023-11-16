@@ -5,6 +5,7 @@ import About from './About'
 import BoardMembers from './BoardMembers'
 import Setup from './Installation'
 import MobileNav from './Components/MobileNav'
+import Footer from './Footer'
 
 
 
@@ -21,6 +22,7 @@ export default function LandingPage() {
       <About/>
       <BoardMembers/>
       <Setup/>
+      <Footer/>
      </div>
   )
 }
