@@ -1,0 +1,447 @@
+[
+  {
+    "id": 1,
+    "projectName": "Hospital Expansion",
+    "status": "Stalled",
+    "region": "Greater Accra",
+    "sector": "Health",
+    "fundingRequired": 1000000,
+    "currentFunding": 500000
+  },
+  {
+    "id": 2,
+    "projectName": "School Infrastructure Upgrade",
+    "status": "Stalled",
+    "region": "Ashanti",
+    "sector": "Education",
+    "fundingRequired": 800000,
+    "currentFunding": 400000
+  },
+  {
+    "id": 3,
+    "projectName": "Road Rehabilitation",
+    "status": "Stalled",
+    "region": "Western",
+    "sector": "Infrastructure",
+    "fundingRequired": 1200000,
+    "currentFunding": 600000
+  },
+  {
+    "id": 4,
+    "projectName": "Water Supply Project",
+    "status": "Stalled",
+    "region": "Eastern",
+    "sector": "Utilities",
+    "fundingRequired": 500000,
+    "currentFunding": 250000
+  },
+  {
+    "id": 5,
+    "projectName": "Library Construction",
+    "status": "Stalled",
+    "region": "Central",
+    "sector": "Education",
+    "fundingRequired": 600000,
+    "currentFunding": 300000
+  },
+  {
+    "id": 6,
+    "projectName": "Highway Expansion",
+    "status": "Stalled",
+    "region": "Northern",
+    "sector": "Infrastructure",
+    "fundingRequired": 1500000,
+    "currentFunding": 750000
+  },
+  {
+    "id": 7,
+    "projectName": "Solar Energy Initiative",
+    "status": "Stalled",
+    "region": "Upper East",
+    "sector": "Energy",
+    "fundingRequired": 700000,
+    "currentFunding": 350000
+  },
+  {
+    "id": 8,
+    "projectName": "Community Health Center",
+    "status": "Stalled",
+    "region": "Upper West",
+    "sector": "Health",
+    "fundingRequired": 900000,
+    "currentFunding": 450000
+  },
+  {
+    "id": 9,
+    "projectName": "Digital Education Program",
+    "status": "Stalled",
+    "region": "Volta",
+    "sector": "Education",
+    "fundingRequired": 750000,
+    "currentFunding": 375000
+  },
+  {
+    "id": 10,
+    "projectName": "Sports Complex Construction",
+    "status": "Stalled",
+    "region": "Brong-Ahafo",
+    "sector": "Sports",
+    "fundingRequired": 1100000,
+    "currentFunding": 550000
+  },
+  {
+    "id": 11,
+    "projectName": "Rural Electrification Project",
+    "status": "Stalled",
+    "region": "Western North",
+    "sector": "Energy",
+    "fundingRequired": 950000,
+    "currentFunding": 475000
+  },
+  {
+    "id": 12,
+    "projectName": "Agricultural Development",
+    "status": "Stalled",
+    "region": "Ahafo",
+    "sector": "Agriculture",
+    "fundingRequired": 820000,
+    "currentFunding": 410000
+  },
+  {
+    "id": 13,
+    "projectName": "Community Water Well",
+    "status": "Stalled",
+    "region": "Oti",
+    "sector": "Utilities",
+    "fundingRequired": 560000,
+    "currentFunding": 280000
+  },
+  {
+    "id": 14,
+    "projectName": "Youth Empowerment Center",
+    "status": "Stalled",
+    "region": "Savannah",
+    "sector": "Social Services",
+    "fundingRequired": 680000,
+    "currentFunding": 340000
+  },
+  {
+    "id": 15,
+    "projectName": "E-Learning Initiative",
+    "status": "Stalled",
+    "region": "Bono East",
+    "sector": "Education",
+    "fundingRequired": 890000,
+    "currentFunding": 445000
+  },
+  {
+    "id": 16,
+    "projectName": "Public Park Construction",
+    "status": "Stalled",
+    "region": "Bono",
+    "sector": "Recreation",
+    "fundingRequired": 720000,
+    "currentFunding": 360000
+  },
+  {
+    "id": 17,
+    "projectName": "Fisheries Development",
+    "status": "Stalled",
+    "region": "Central",
+    "sector": "Fisheries",
+    "fundingRequired": 780000,
+    "currentFunding": 390000
+  },
+  {
+    "id": 18,
+    "projectName": "Urban Housing Project",
+    "status": "Stalled",
+    "region": "Ahafo",
+    "sector": "Housing",
+    "fundingRequired": 920000,
+    "currentFunding": 460000
+  },
+  {
+    "id": 19,
+    "projectName": "Renewable Energy Research",
+    "status": "Stalled",
+    "region": "Western North",
+    "sector": "Energy",
+    "fundingRequired": 660000,
+    "currentFunding": 330000
+  },
+  {
+    "id": 20,
+    "projectName": "Community Center Construction",
+    "status": "Stalled",
+    "region": "Volta",
+    "sector": "Social Services",
+    "fundingRequired": 840000,
+    "currentFunding": 420000
+  },
+  {
+    "id": 21,
+    "projectName": "Malaria Prevention Program",
+    "status": "Stalled",
+    "region": "Upper West",
+    "sector": "Health",
+    "fundingRequired": 580000,
+    "currentFunding": 290000
+  },
+  {
+    "id": 22,
+    "projectName": "Tech Innovation Hub",
+    "status": "Stalled",
+    "region": "Eastern",
+    "sector": "Technology",
+    "fundingRequired": 1100000,
+    "currentFunding": 550000
+  },
+  {
+    "id": 23,
+    "projectName": "Cultural Heritage Preservation",
+    "status": "Stalled",
+    "region": "Northern",
+    "sector": "Culture",
+    "fundingRequired": 780000,
+    "currentFunding": 390000
+  },
+
+    {
+      "id": 24,
+      "projectName": "Hospital Expansion",
+      "status": "Stalled",
+      "region": "Greater Accra",
+      "sector": "Health",
+      "fundingRequired": 1000000,
+      "currentFunding": 500000
+    },
+    {
+      "id": 25,
+      "projectName": "School Infrastructure Upgrade",
+      "status": "Stalled",
+      "region": "Ashanti",
+      "sector": "Education",
+      "fundingRequired": 800000,
+      "currentFunding": 400000
+    },
+    {
+      "id": 26,
+      "projectName": "Road Rehabilitation",
+      "status": "Stalled",
+      "region": "Western",
+      "sector": "Infrastructure",
+      "fundingRequired": 1200000,
+      "currentFunding": 600000
+    },
+    {
+      "id": 27,
+      "projectName": "Water Supply Project",
+      "status": "Stalled",
+      "region": "Eastern",
+      "sector": "Utilities",
+      "fundingRequired": 500000,
+      "currentFunding": 250000
+    },
+    {
+      "id": 28,
+      "projectName": "Library Construction",
+      "status": "Stalled",
+      "region": "Central",
+      "sector": "Education",
+      "fundingRequired": 600000,
+      "currentFunding": 300000
+    },
+    {
+      "id": 29,
+      "projectName": "Highway Expansion",
+      "status": "Stalled",
+      "region": "Northern",
+      "sector": "Infrastructure",
+      "fundingRequired": 1500000,
+      "currentFunding": 750000
+    },
+    {
+      "id": 30,
+      "projectName": "Solar Energy Initiative",
+      "status": "Stalled",
+      "region": "Upper East",
+      "sector": "Energy",
+      "fundingRequired": 700000,
+      "currentFunding": 350000
+    },
+    {
+      "id": 31,
+      "projectName": "Community Health Center",
+      "status": "Stalled",
+      "region": "Upper West",
+      "sector": "Health",
+      "fundingRequired": 900000,
+      "currentFunding": 450000
+    },
+    {
+      "id": 32,
+      "projectName": "Digital Education Program",
+      "status": "Stalled",
+      "region": "Volta",
+      "sector": "Education",
+      "fundingRequired": 750000,
+      "currentFunding": 375000
+    },
+    {
+      "id": 33,
+      "projectName": "Sports Complex Construction",
+      "status": "Stalled",
+      "region": "Brong-Ahafo",
+      "sector": "Sports",
+      "fundingRequired": 1100000,
+      "currentFunding": 550000
+    },
+    {
+      "id": 34,
+      "projectName": "Rural Electrification Project",
+      "status": "Stalled",
+      "region": "Western North",
+      "sector": "Energy",
+      "fundingRequired": 950000,
+      "currentFunding": 475000
+    },
+    {
+      "id": 35,
+      "projectName": "Agricultural Development",
+      "status": "Stalled",
+      "region": "Ahafo",
+      "sector": "Agriculture",
+      "fundingRequired": 820000,
+      "currentFunding": 410000
+    },
+    {
+      "id": 36,
+      "projectName": "Community Water Well",
+      "status": "Stalled",
+      "region": "Oti",
+      "sector": "Utilities",
+      "fundingRequired": 560000,
+      "currentFunding": 280000
+    },
+ 
+      {
+        "id": 37,
+        "projectName": "Solar Energy Initiative",
+        "status": "Stalled",
+        "region": "Upper East",
+        "sector": "Energy",
+        "fundingRequired": 700000,
+        "currentFunding": 350000
+      },
+      {
+        "id": 38,
+        "projectName": "Water Purification Project",
+        "status": "Ongoing",
+        "region": "Ashanti",
+        "sector": "Water and Sanitation",
+        "fundingRequired": 500000,
+        "currentFunding": 250000
+      },
+      {
+        "id": 39,
+        "projectName": "Road Construction Project",
+        "status": "Stalled",
+        "region": "Northern",
+        "sector": "Infrastructure",
+        "fundingRequired": 1000000,
+        "currentFunding": 400000
+      },
+      {
+        "id": 40,
+        "projectName": "School Rehabilitation Project",
+        "status": "Completed",
+        "region": "Western",
+        "sector": "Education",
+        "fundingRequired": 300000,
+        "currentFunding": 300000
+      },
+      {
+        "id": 41,
+        "projectName": "Hospital Renovation Project",
+        "status": "Ongoing",
+        "region": "Greater Accra",
+        "sector": "Health",
+        "fundingRequired": 800000,
+        "currentFunding": 500000
+      },
+      {
+        "id": 42,
+        "projectName": "Agricultural Development Initiative",
+        "status": "Planning",
+        "region": "Volta",
+        "sector": "Agriculture",
+        "fundingRequired": 600000,
+        "currentFunding": 100000
+      },
+      {
+        "id": 43,
+        "projectName": "Waste Management Project",
+        "status": "Stalled",
+        "region": "Eastern",
+        "sector": "Environment",
+        "fundingRequired": 400000,
+        "currentFunding": 150000
+      },
+      {
+        "id": 44,
+        "projectName": "Rural Electrification Project",
+        "status": "Ongoing",
+        "region": "Brong Ahafo",
+        "sector": "Energy",
+        "fundingRequired": 900000,
+        "currentFunding": 450000
+      },
+      {
+        "id": 45,
+        "projectName": "Skill Development Program",
+        "status": "Completed",
+        "region": "Central",
+        "sector": "Education",
+        "fundingRequired": 350000,
+        "currentFunding": 350000
+      },
+      {
+        "id": 46,
+        "projectName": "Tourism Promotion Initiative",
+        "status": "Planning",
+        "region": "Western North",
+        "sector": "Tourism",
+        "fundingRequired": 500000,
+        "currentFunding": 0
+      },
+      {
+        "id": 47,
+        "projectName": "Healthcare Outreach Program",
+        "status": "Ongoing",
+        "region": "Ahafo",
+        "sector": "Health",
+        "fundingRequired": 250000,
+        "currentFunding": 125000
+      },
+      {
+        "id": 48,
+        "projectName": "Small Business Development Initiative",
+        "status": "Completed",
+        "region": "Savannah",
+        "sector": "Entrepreneurship",
+        "fundingRequired": 400000,
+        "currentFunding": 400000
+      },
+      {
+        "id": 49,
+        "projectName": "Digital Literacy Program",
+        "status": "Planning",
+        "region": "Oti",
+        "sector": "Education",
+        "fundingRequired": 300000,
+        "currentFunding": 0
+      }
+    
+
+]

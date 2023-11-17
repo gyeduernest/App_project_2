@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router"
+import { Routes, Route, Outlet } from "react-router"
 import FindProject from "./Components/search"
 import Projects from "./Components/Projects"
 import Favorites from "./Components/SavedProjects"
@@ -11,12 +11,16 @@ import About from "./About"
 import Contact from "./Contact"
 import Register from "./Register"
 import Login from "./Login"
+import Summary from "./Components/Summary"
+import DashNav from "./Components/DashNav"
+import AllProjects from "./Components/AllProjects"
 
 
 function App() {
 
   return (
     <>
+
           <Routes>
             
 
@@ -32,14 +36,21 @@ function App() {
             
         
         
-             
-            <Route path="/dashboard" element={<Dashboard/>}/>  
-              <Route path="/favorites" element={<Favorites/>}/>
-              <Route path="/search" element={<FindProject/>}/>
-              <Route path="/projects" element={<Projects/>}/>
-              <Route path="/chatbox" element={<Chatbox/>}/>
-              <Route path="/profiles" element={<Profiles/>}/>
-            </Routes>
+             <Route>
+
+                <Route path="/dashboard" element={<Dashboard/>}/>  
+                <Route path="/favorites" element={<Favorites/>}/>
+                <Route path="/search" element={<FindProject/>}/>
+                <Route path="/projects" element={<Projects/>}/>
+                <Route path="/chatbox" element={<Chatbox/>}/>
+                <Route path="/profiles" element={<Profiles/>}/>
+                <Route path="/summary" element={<Summary/>}/>
+                <Route path="/dashnav" element={<DashNav/>}/>
+                <Route path="/allprojects" element={<AllProjects/>}/>
+
+             </Route>
+            
+            </Routes>        
     
 
     </>

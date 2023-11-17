@@ -43,6 +43,9 @@ li{
     @apply px-5 py-2 bg-pink-500 rounded-md font-semibold
      text-white focus:ring-4 focus:ring-blue-100
  }
+ .search{
+  @apply focus:ring-blue-700 focus:ring-2 rounded-md border-2 border-slate-500 text-center h-10 w-96
+ }
 
  
 
