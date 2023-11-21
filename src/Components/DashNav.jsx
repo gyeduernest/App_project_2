@@ -9,7 +9,7 @@ export default function DashNav(props) {
   
   return (
     <div className=''>
-      <nav className='  pt-40 pb-96 p-20 border w-96 h-full'>
+      <nav className='  pt-40 pb-96 p-10 border w-64 h-full'>
           <ul>
           <li className='mb-10'  >
           <Link to="/summary" className='hover:bg-slate-100 hover:px-10 hover:py-1 hover:rounded-md active:bg-blue-500 active:text-white'>{props.Main}</Link>

@@ -20,9 +20,9 @@ const AllProjects = () => {
 
   return (
     <div className='flex'>
-      <div className='fixed'>
+      <div className='fixed hidden lg:block'>
       <DashNav
-        Main="Summary"
+        Main="Admin Board"
         search="Search"
         Saved="Saved Projects"
         Profile="Profile"
@@ -32,21 +32,33 @@ const AllProjects = () => {
 
       </div>
 
-      <div className='mx-auto w-96'>
-        <h2>All Projects</h2>
-        <ul>
+      <div className=' mx-auto'>
+        <div className='text-center p-5'>
+        <h2 className=''>All Projects</h2>
+        </div>
+        
+        
+          <div className='flex flex-wrap lg:px-80 lg:gap-10 lg:ml-20'>
           {projects.map(project => (
-            <li key={project.id}>
-              <strong>{project.projectName}</strong>
-              <p>Status: {project.status}</p>
+            <div key={project.id} className='border border-gray-300 p-4 rounded-md mb-4' >
+              <div className=''>
+              <img src={project.image} alt="" className='w-56 h-40 rounded-md' />
+              <h5 className='font-bold'>{project.projectName}</h5>
               <p>Region: {project.region}</p>
               <p>Sector: {project.sector}</p>
               <p>Funding Required: {project.fundingRequired}</p>
               <p>Current Funding: {project.currentFunding}</p>
-            </li>
+              <div className='px-5 items-center justify-center'>
+              <button className='fund'>Fund Project</button>
+              <button className='save'>Save</button>
+              </div>
+              </div>
+            </div>
           ))}
-        </ul>
-      </div>
+          </div>
+
+
+        </div>
     </div>
   );
 };

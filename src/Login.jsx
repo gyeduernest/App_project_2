@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 export default function Login() {
+
+
+
   return (
 
     <>
@@ -13,19 +16,32 @@ export default function Login() {
       <div>
         <label htmlFor="email"><h4 className='text-slate-700'>Email</h4></label>
       </div>
-        <input type="email" name='email' id='email' placeholder='insert email' className='px-5 h-12 rounded-md border-slate-400 border w-full active:border-blue-600' />
+        <input type="email" 
+        name='email'
+         id='email'
+          placeholder='insert email'
+           className='px-5 h-12 rounded-md border-slate-400 border w-full active:border-blue-600'
+           required />
         
       <div className='mt-5'>
         <label htmlFor="password"><h4 className='text-slate-700'>Password</h4></label>
       </div>
-        <input type="password" name='password' id='password' placeholder='insert password' className='px-5 h-12 rounded-md border-slate-400 border w-full active:border-blue-600' />
+        <input 
+        type="password"
+         name='password'
+          id='password'
+           placeholder='insert password'
+            className='px-5 h-12 rounded-md border-slate-400 border w-full active:border-blue-600' 
+            required/>
+          
+          <Link className='text-blue-500 font-bold'>Forgot Password?</Link>
         
         <div className='flex justify-center items-center pt-10'>
         <button className='w-full'>Log in</button>
         </div>
               </form>
         
-              <Link to="/register" className='px-10 ' >Dont Have an Account Sign-up</Link>
+              <Link to="/register" className='px-5 text-sm' >Dont Have an Account Sign-up</Link>
     </div>
     </>
   )

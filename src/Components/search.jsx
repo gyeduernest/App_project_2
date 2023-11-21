@@ -34,7 +34,7 @@ const FindProject = () => {
 
   return (
     <div className='flex'>
-      <div className='fixed'>
+      <div className=''>
         <DashNav
           Main="Admin Board"
           search="Search"
@@ -45,7 +45,7 @@ const FindProject = () => {
         />
       </div>
       <div className='mx-auto p-5 '>
-        <div className="flex gap-5">
+        <div className="flex gap-5 justify-center items-center">
           <div>
             <input
               type="search"
@@ -64,8 +64,10 @@ const FindProject = () => {
           </div>
         </div>
 
+        <div className='flex flex-wrap gap-10 p-20'>
         {filteredProjects.map(project => (
-          <div key={project.id} className="border border-gray-300 p-4 rounded-md mb-4">
+          <div key={project.id} className="border border-gray-300 w-56 p-5 rounded-md mb-4">
+            <img src={project.image} className='w-40 h-40 rounded-md' alt="" />
             <strong className="block mb-2 text-lg">{project.projectName}</strong>
             <p>Status: {project.status}</p>
             <p>Region: {project.region}</p>
@@ -75,6 +77,7 @@ const FindProject = () => {
             <button>Fund Project</button>
           </div>
         ))}
+        </div>
       </div>
     </div>
   );
